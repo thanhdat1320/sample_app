@@ -4,6 +4,7 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 gem "bcrypt"
 gem "bootstrap-kaminari-views"
 gem "config"
+gem "faker", "2.1.2"
 gem "kaminari"
 ruby "2.7.3"
 

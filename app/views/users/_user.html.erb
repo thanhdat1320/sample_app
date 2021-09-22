@@ -1,4 +1,8 @@
-<tr>
-  <td><%= user.name %></td>
-  <td><%= user.email %></td>
-</tr>
+<li>
+  <%= gravatar_for user, size: Settings.validations.length.size_50 %>
+  <%= link_to user.name, user %>
+  <% if is_admin? user %>
+    | <%= link_to t(".delete"), user, method: :delete,
+          data: {confirm: t(".sure_delete")} %>
+  <% end %>
+</li>

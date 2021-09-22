@@ -10,6 +10,7 @@ en:
       account: "Account"
       profile: "Profile"
       settings: "Settings"
+      users: "Users"
   static_pages:
     help:
       title: "Help"
@@ -28,16 +29,30 @@ en:
   users:
     new:
       sign_up: "Sign up"
+      create_my_account: "Create"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       confirmation: "Confirm your password"
-      create_my_account: "Create"
     index:
       users: "Users"
     user:
+      delete: "delete"
+      sure_delete: "You sure?"
+    edit:
+      edit: "Edit user"
+      update: "Update your profile"
+      save: "Save changes"
+      change_img: "change"
+  sessions:
+    new:
+      log_in: "Login"
+      new_user: "New user?"
+      sign_up_now: "Signup now!"
       name: "Name"
-      email: "Email"
+      password: "Password"
+      remember_me: "Remember me on this computer"
   views:
     pagination:
       first: "« FIRST"
@@ -50,6 +65,12 @@ en:
       welcome: "Welcome to the sample app!"
       fail: "Sign up fail!"
       user_not_found: "User not found!!!"
+      updated: "Profile updated"
+      updated_fail: "Update fail!"
+      logged_in_user: "Please log in!"
+      deleted: "Deleted!"
+      delete_fail: "Delete fail!"
+      check_admin: "You have no right to this action."
     sessions_controller:
       invalid_login: "Invalid email password combination!"
   shared:
@@ -57,11 +78,3 @@ en:
       error:
         one: "The form contains %{count} error"
         other: "The form contains %{count} errors"
-  sessions:
-    new:
-      log_in: "Login"
-      new_user: "New user?"
-      sign_up_now: "Signup now!"
-      name: "Name"
-      password: "Password"
-      remember_me: "Remember me on this computer"
