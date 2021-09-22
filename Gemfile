@@ -2,7 +2,9 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 gem "bcrypt"
+gem "bootstrap-kaminari-views"
 gem "config"
+gem "kaminari"
 ruby "2.7.3"
 
 gem "bootsnap", ">= 1.4.4", require: false
