@@ -71,10 +71,20 @@ vi:
       deleted: "Xóa thành công!"
       delete_fail: "Xóa thất bại!"
       check_admin: "Bạn không có quyền cho hành động này."
+      check_mail: "Hãy kiểm tra mail của bạn để kích hoạt tài khoản"
     sessions_controller:
-      invalid_login: "Email hoặc mật khẩu không đúng!"
+      invalid_login: "Email hoăc mật khẩu không đúng"
+      not_activated: "Tài khoản kích hoạt thất bại"
+    account_activations_controller:
+      activated: "Tài khoản kích hoạt thành công"
+      not_activated: "Đường dẫn kích hoạt lỗi "
   shared:
     error_messages:
       error:
         one: "Biểu mẫu bao gồm %{count} lỗi"
         other: "Biểu mẫu bao gồm %{count} lỗi"
+  user_mailer:
+    account_activation:
+      sample_app: "ỨNG DỤNG MẪU"
+      welcome: "Chào mừng đến với ứng dụg mẫu! Click vào link bên dưới để kích hoạt tài khoản."
+      activate: "Kích hoạt"

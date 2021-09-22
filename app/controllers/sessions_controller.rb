@@ -17,8 +17,13 @@ class SessionsController < ApplicationController
   end
 
   def actived_user user
-    log_in user
-    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_back_or user
+    if user.activated
+      log_in user
+      params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+      redirect_back_or user
+    else
+      flash[:warning] = t "controllers.sessions_controller.not_activated"
+      redirect_to login_path
+    end
   end
 end
