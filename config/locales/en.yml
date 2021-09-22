@@ -53,6 +53,16 @@ en:
       name: "Name"
       password: "Password"
       remember_me: "Remember me on this computer"
+      forgot_password: "Forgot password"
+  password_resets:
+    new:
+      submit: "Submit"
+      forgot_password: "Forgot password"
+    edit:
+      reset_password: "Reset password"
+      password: "Password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
   views:
     pagination:
       first: "« FIRST"
@@ -78,6 +88,13 @@ en:
     account_activations_ontroller:
       activated: "Account actived!"
       not_activated: "Invalid activation link!"
+    password_resets_controller:
+      send_mail_reset: "Email sent with password reset instructions"
+      reset_success: "Password reset successfull"
+      user_not_found: "User not found"
+      invalid_user: "Invalid user"
+      password_expired: "Password reset has expired."
+      password_empty: "Password is empty"
   shared:
     error_messages:
       error:
@@ -88,3 +105,8 @@ en:
       sample_app: "Sample App"
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    password_reset:
+      password_reset: "Password reset"
+      link: "To reset your password click the link below:"
+      expire: "This link will expire in two hours."
+      not_request: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
