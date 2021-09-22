@@ -5,7 +5,11 @@ en:
       logo: "Sample App"
       home: "Home"
       help: "Help"
-      log in: "Log in"
+      log_in: "Log in"
+      log_out: "Log out"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
   static_pages:
     help:
       title: "Help"
@@ -21,4 +25,26 @@ en:
       home_page: "This is the home page for the"
       application: "sample application."
       sign_up: "Sign up now!!!"
+  users:
+    new:
+      sign_up: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirm your password"
+      create_my_account: "Create"
+  sessions:
+    new:
+      log_in: "Login"
+      new_user: "New user?"
+      sign_up_now: "Signup now!"
+      name: "Name"
+      password: "Password"
+  controllers:
+    users_controller:
+      welcome: "welcome_to_the_sample_app!"
+    sessions_controller:
+      invalid_login: "Invalid email password combination!"
+
+
 

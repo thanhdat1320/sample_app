@@ -5,7 +5,11 @@ vi:
       logo: "ỨNG DỤNG MẪU"
       home: "Trang chủ"
       help: "Trợ giúp"
-      log in: "Đăng nhập "
+      log_in: "Đăng nhập"
+      log_out: "Đăng xuất"
+      account: "Tài khoản"
+      profile: "Tiểu sử"
+      settings: "Cài đặt"
   static_pages:
     help:
       title: "Trợ giúp"
@@ -21,3 +25,23 @@ vi:
       home_page: "Đây là trang chủ cho"
       application: "ứng dụng mẫu."
       sign_up: "Đăng ký ngay !!!"
+  users:
+    new:
+      sign_up: "Đăng Ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật Khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      create_my_account: "Tạo tài khoản"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
+      name: "Tên"
+      password: "Mật khẩu"
+  controllers:
+    users_controller:
+      welcome: "Chào mừng đến với ứng dụg mẫu"
+    sessions_controller:
+      invalid_login: "Email hoặc mật khẩu không đúng!"
