@@ -1,0 +1,23 @@
+vi:
+  base_title: "Hướng Dẫn Sử Dụng Ruby on Rails Cơ Bản"
+  layouts:
+    header:
+      logo: "ỨNG DỤNG MẪU"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log in: "Đăng nhập "
+  static_pages:
+    help:
+      title: "Trợ giúp"
+      help: "Trợ giúp"
+      get_help: "Nhận sự trợ giúp của Ruby on Rails Tutorial tại"
+      page_help: "Rails Tutorial trang trợ giúp"
+      to_get_help: "để nhận sợ giúp đỡ của ứng dụng mẫu này, xem ở"
+      get_book: "Ruby on Rails Tutorial"
+      book: "sách"
+    home:
+      title: "Trang chủ"
+      sample_app: "Ứng Dụng Mẫu"
+      home_page: "Đây là trang chủ cho"
+      application: "ứng dụng mẫu."
+      sign_up: "Đăng ký ngay !!!"
