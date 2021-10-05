@@ -21,3 +21,33 @@ vi:
       home_page: "Đây là trang chủ cho"
       application: "ứng dụng mẫu."
       sign_up: "Đăng ký ngay !!!"
+  users:
+    new:
+      sign_up: "Đăng Ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật Khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      create_my_account: "Tạo tài khoản"
+    index:
+      users: "Người dùng"
+    user:
+      name: "Tên"
+      email: "Email"
+  views:
+    pagination:
+      first: "« ĐẦu"
+      last: "CUỐI »"
+      previous: "‹ TRƯỚC"
+      next: "SAU ›"
+      truncate: "…"
+  controllers:
+    users_controller:
+      welcome: "Chào mừng đến với ứng dụg mẫu!"
+      fail: "Đăng ký thất bại!"
+      user_not_found: "Người dùng không tìm thấy!!!"
+  shared:
+    error_messages:
+      error:
+        one: "Biểu mẫu bao gồm %{count} lỗi"
+        other: "Biểu mẫu bao gồm %{count} lỗi"

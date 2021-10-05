@@ -21,4 +21,33 @@ en:
       home_page: "This is the home page for the"
       application: "sample application."
       sign_up: "Sign up now!!!"
-
+  users:
+    new:
+      sign_up: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirm your password"
+      create_my_account: "Create"
+    index:
+      users: "Users"
+    user:
+      name: "Name"
+      email: "Email"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
+  controllers:
+    users_controller:
+      welcome: "Welcome to the sample app!"
+      fail: "Sign up fail!"
+      user_not_found: "User not found!!!"
+  shared:
+    error_messages:
+      error:
+        one: "The form contains %{count} error"
+        other: "The form contains %{count} errors"
