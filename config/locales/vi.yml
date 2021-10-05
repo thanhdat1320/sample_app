@@ -5,7 +5,11 @@ vi:
       logo: "ỨNG DỤNG MẪU"
       home: "Trang chủ"
       help: "Trợ giúp"
-      log in: "Đăng nhập "
+      log_in: "Đăng nhập"
+      log_out: "Đăng xuất"
+      account: "Tài khoản"
+      profile: "Tiểu sử"
+      settings: "Cài đặt"
   static_pages:
     help:
       title: "Trợ giúp"
@@ -46,8 +50,17 @@ vi:
       welcome: "Chào mừng đến với ứng dụg mẫu!"
       fail: "Đăng ký thất bại!"
       user_not_found: "Người dùng không tìm thấy!!!"
+    sessions_controller:
+      invalid_login: "Email hoặc mật khẩu không đúng!"
   shared:
     error_messages:
       error:
         one: "Biểu mẫu bao gồm %{count} lỗi"
         other: "Biểu mẫu bao gồm %{count} lỗi"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
+      name: "Tên"
+      password: "Mật khẩu"

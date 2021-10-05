@@ -5,7 +5,11 @@ en:
       logo: "Sample App"
       home: "Home"
       help: "Help"
-      log in: "Log in"
+      log_in: "Log in"
+      log_out: "Log out"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
   static_pages:
     help:
       title: "Help"
@@ -46,8 +50,17 @@ en:
       welcome: "Welcome to the sample app!"
       fail: "Sign up fail!"
       user_not_found: "User not found!!!"
+    sessions_controller:
+      invalid_login: "Invalid email password combination!"
   shared:
     error_messages:
       error:
         one: "The form contains %{count} error"
         other: "The form contains %{count} errors"
+  sessions:
+    new:
+      log_in: "Login"
+      new_user: "New user?"
+      sign_up_now: "Signup now!"
+      name: "Name"
+      password: "Password"
