@@ -4,7 +4,8 @@ class User < ApplicationRecord
   validates :name, :email, presence: true
   validates :password, length:
           {maximum: Settings.validations.length.digit_255,
-           minimum: Settings.validations.length.digit_6}
+           minimum: Settings.validations.length.digit_6},
+           allow_nil: true
   validates :email, uniqueness: true,
            length: {maximum: Settings.validations.length.digit_255,
                     minimum: Settings.validations.length.digit_6},

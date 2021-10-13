@@ -4,3 +4,6 @@ validations:
     digit_6: 6
 paginate:
   page_5: 5
+image:
+  size_80: 80
+  size_50: 50

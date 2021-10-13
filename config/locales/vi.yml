@@ -10,6 +10,7 @@ vi:
       account: "Tài khoản"
       profile: "Tiểu sử"
       settings: "Cài đặt"
+      users: "Người Dùng"
   static_pages:
     help:
       title: "Trợ giúp"
@@ -28,16 +29,30 @@ vi:
   users:
     new:
       sign_up: "Đăng Ký"
+      create_my_account: "Tạo tài khoản"
+    form:
       name: "Tên"
       email: "Email"
       password: "Mật Khẩu"
       confirmation: "Xác nhận mật khẩu"
-      create_my_account: "Tạo tài khoản"
     index:
       users: "Người dùng"
     user:
+      delete: "xóa"
+      sure_delete: "Bạn có chắc chắn xóa dùng này?"
+    edit:
+      edit: "Chỉnh sửa người dùng"
+      update: "Cập nhật thông tin"
+      save: "Lưu thay đổi"
+      change_img: "thay đổi"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
       name: "Tên"
-      email: "Email"
+      password: "Mật khẩu"
+      remember_me: "Ghi nhớ máy tính này"
   views:
     pagination:
       first: "« ĐẦu"
@@ -50,6 +65,12 @@ vi:
       welcome: "Chào mừng đến với ứng dụg mẫu!"
       fail: "Đăng ký thất bại!"
       user_not_found: "Người dùng không tìm thấy!!!"
+      updated: "Cập nhật thành công"
+      updated_fail: "Cập nhật thất bại!"
+      logged_in_user: "Bạn chưa đăng nhập!"
+      deleted: "Xóa thành công!"
+      delete_fail: "Xóa thất bại!"
+      check_admin: "Bạn không có quyền cho hành động này."
     sessions_controller:
       invalid_login: "Email hoặc mật khẩu không đúng!"
   shared:
@@ -57,11 +78,3 @@ vi:
       error:
         one: "Biểu mẫu bao gồm %{count} lỗi"
         other: "Biểu mẫu bao gồm %{count} lỗi"
-  sessions:
-    new:
-      log_in: "Đăng nhập"
-      new_user: "Người dùng mới?"
-      sign_up_now: "Đăng ký ngay!"
-      name: "Tên"
-      password: "Mật khẩu"
-      remember_me: "Ghi nhớ máy tính này"
