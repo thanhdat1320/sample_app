@@ -5,6 +5,7 @@ gem "bcrypt"
 gem "bootstrap-kaminari-views"
 gem "config"
 gem "faker", "2.1.2"
+gem "figaro"
 gem "kaminari"
 ruby "2.7.3"
 

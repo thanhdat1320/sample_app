@@ -71,10 +71,20 @@ en:
       deleted: "Deleted!"
       delete_fail: "Delete fail!"
       check_admin: "You have no right to this action."
+      check_mail: "Please check your email to activate your account."
     sessions_controller:
       invalid_login: "Invalid email password combination!"
+      not_activated: "Account not actived!"
+    account_activations_ontroller:
+      activated: "Account actived!"
+      not_activated: "Invalid activation link!"
   shared:
     error_messages:
       error:
         one: "The form contains %{count} error"
         other: "The form contains %{count} errors"
+  user_mailer:
+    account_activation:
+      sample_app: "Sample App"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
