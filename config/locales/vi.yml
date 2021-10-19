@@ -53,6 +53,16 @@ vi:
       name: "Tên"
       password: "Mật khẩu"
       remember_me: "Ghi nhớ máy tính này"
+      forgot_password: "Quên mật khẩu"
+  password_resets:
+    new:
+      submit: "Xác nhận"
+      forgot_password: "Quên mật khẩu"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      update_password: "Cập nhật mật khẩu"
   views:
     pagination:
       first: "« ĐẦu"
@@ -78,6 +88,13 @@ vi:
     account_activations_controller:
       activated: "Tài khoản kích hoạt thành công"
       not_activated: "Đường dẫn kích hoạt lỗi "
+    password_resets_controller:
+      send_mail_reset: "Email đã được gửi với mật khẩu được đặt lại"
+      reset_success: "Mật khẩu được đặt lại thành công"
+      user_not_found: "Người dùng không tìm thấy"
+      invalid_user: "Người dùng sai"
+      password_expired: "Mật khẩu đặt lại hết hạn"
+      password_empty: "Mật khẩu trống"
   shared:
     error_messages:
       error:
@@ -88,3 +105,8 @@ vi:
       sample_app: "ỨNG DỤNG MẪU"
       welcome: "Chào mừng đến với ứng dụg mẫu! Click vào link bên dưới để kích hoạt tài khoản."
       activate: "Kích hoạt"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      link: "Để đặt lại mật khẩu click vào link bên dưới:"
+      expire: "Link này sẽ hết hạn trong vào 2 giờ"
+      not_request: "Nếu bạn không muốn đặt lại mật khẩu thì hãy bỏ qua eamil này và mật khẩu của bạn vẫn được giữ"

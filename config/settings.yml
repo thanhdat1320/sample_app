@@ -7,3 +7,5 @@ paginate:
 image:
   size_80: 80
   size_50: 50
+expired:
+  reset_expired_2: 2
